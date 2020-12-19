@@ -1,12 +1,18 @@
-import "./App.css";
+import { Development } from "./Components";
+//import "./App.css";
 
 function App() {
   const underdevelopment = true;
 
   if (underdevelopment) {
-    return <div>underconstruction buddy!</div>;
+    return <Development />;
   }
-  return <div>memer</div>;
+
+  return (
+    <div className="App">
+      <header className="App-header">main site</header>
+    </div>
+  );
 }
 
 export default App;
