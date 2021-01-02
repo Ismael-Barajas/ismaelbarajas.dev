@@ -1,7 +1,9 @@
 import { Twitter, Instagram, GitHub } from "@material-ui/icons";
-import { IconButton, CircularProgress } from "@material-ui/core";
+import { IconButton } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import "./Development.css";
+import { Dot } from "react-animated-dots";
+import Typing from "react-typing-animation";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,8 +20,15 @@ export default function Development() {
     <div className="App">
       <header className="App-header">
         <h1>
-          Ismael Barajas
-          <CircularProgress />
+          <Typing speed={115}>
+            Ismael Baarjsa
+            <Typing.Backspace count={5} />
+            rajas
+            <Dot>.</Dot>
+            <Dot>.</Dot>
+            <Dot>.</Dot>
+            <Typing.Delay ms={5500} />
+          </Typing>
         </h1>
         <div className={classes.root}>
           <a href="https://twitter.com/InXanee">
