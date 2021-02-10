@@ -20,12 +20,13 @@ export default function Development() {
     <div className="App">
       <header className="App-header">
         <h1>
-          <Typing speed={115}>
+          <Typing speed={125}>
+            Hi!
+            <Typing.Delay ms={2300} />
+            <Typing.Backspace count={3} />
             Ismael Baarjsa
             <Typing.Backspace count={5} />
             rajas
-            <Dot>.</Dot>
-            <Dot>.</Dot>
             <Dot>.</Dot>
             <Typing.Delay ms={5500} />
           </Typing>
