@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-## DEPLOYED HERE ismaelbarajas.dev
+## DEPLOYED HERE https://ismaelbarajas.dev/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
