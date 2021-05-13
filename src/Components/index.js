@@ -1,1 +1,2 @@
-export { default as Development } from "./DevelopmentPage/Development";
+export { default as Header } from "./Header/Header";
+export { default as Projects } from "./Projects/Projects";

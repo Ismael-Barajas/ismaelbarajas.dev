@@ -1,4 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #976363;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

@@ -1,17 +1,11 @@
-import { Development } from "./Components";
-//import "./App.css";
+import { Header, Projects } from "./Components";
 
 function App() {
-  const underdevelopment = true;
-
-  if (underdevelopment) {
-    return <Development />;
-  }
-
   return (
-    <div className="App">
-      <header className="App-header">main site</header>
-    </div>
+    <>
+      <Header />
+      <Projects />
+    </>
   );
 }
 

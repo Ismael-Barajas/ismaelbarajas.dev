@@ -1,10 +1,10 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #976363;
-  min-height: 100vh;
+.Appheader {
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,11 +13,11 @@
   color: rgb(235, 207, 145);
 }
 
-.MuiCircularProgress-colorPrimary {
+/* .MuiCircularProgress-colorPrimary {
   color: rgb(235, 207, 145) !important;
 }
 
 .MuiCircularProgress-root {
   width: 16px !important;
   height: 16px !important;
-}
+} */

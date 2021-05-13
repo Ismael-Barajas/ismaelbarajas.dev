@@ -1,0 +1,13 @@
+//TODO: fill out this array of objects with info for each projects
+[
+    {
+    "id":"1",
+    "firstname":"sam",
+    "lastname":"parkar"
+    },
+    {
+    "id":"2",
+    "firstname":"julee",
+    "lastname":"fransic"
+    }
+]
