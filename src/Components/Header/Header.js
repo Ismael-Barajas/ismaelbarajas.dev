@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const jumpTo = () => {
-  var elmnt = document.getElementById("Project-Container");
+  var elmnt = document.getElementById("AboutMe-Container");
   elmnt.scrollIntoView({ behavior: "smooth" });
 };
 
@@ -73,7 +73,6 @@ export default function Header() {
         </div>
       </header>
       <div>
-        {/* <a href="#testtest"> */}
         <IconButton
           onClick={() => {
             jumpTo();
@@ -81,7 +80,6 @@ export default function Header() {
         >
           <ExpandMoreIcon style={{ fontSize: 40 }} />
         </IconButton>
-        {/* </a> */}
       </div>
     </div>
   );

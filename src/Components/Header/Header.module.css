@@ -10,14 +10,5 @@
   align-items: center;
   justify-content: center;
   font-size: calc(27px + 2vmin);
-  color: rgb(235, 207, 145);
+  color: var(--header--text--color);
 }
-
-/* .MuiCircularProgress-colorPrimary {
-  color: rgb(235, 207, 145) !important;
-}
-
-.MuiCircularProgress-root {
-  width: 16px !important;
-  height: 16px !important;
-} */

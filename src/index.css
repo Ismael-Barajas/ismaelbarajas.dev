@@ -1,9 +1,19 @@
+:root {
+  --header--text--color: rgb(235, 207, 145);
+  --background--color: #976363;
+  --cardPaper--background--color: #c99a9a;
+  --body--text--color: rgb(102, 86, 55);
+
+  --global--font-family: serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #976363;
+  background-color: var(--background--color);
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
+  font-family: var(--global--font-family);
 }
 
 body::-webkit-scrollbar {

@@ -1,0 +1,34 @@
+.AboutMeContainer {
+  text-align: center;
+  height: 100vh;
+}
+
+.AvatarImg {
+  width: 220px !important;
+  height: 220px !important;
+  margin: 20px;
+}
+
+.CenterDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.Paper {
+  margin-top: 30px;
+  background-color: var(--cardPaper--background--color) !important;
+}
+
+.H2Text {
+  padding-top: 20px;
+  color: var(--header--text--color);
+  font-family: var(--global--font-family) !important;
+}
+
+.BodyParagraph {
+  width: 100%;
+  max-width: 800px;
+  margin: 0px 20px 20px 20px !important;
+  color: var(--body--text--color);
+  font-size: clamp(1em, 1.5vw, 2vw) !important;
+}
