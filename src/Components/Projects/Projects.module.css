@@ -1,0 +1,31 @@
+.ProjectsContainer {
+  text-align: center;
+  /* height: 100vh; */
+}
+
+.H2Text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: var(--header--text--color);
+  font-family: var(--global--font-family) !important;
+}
+
+.Cards {
+  margin-top: 15px;
+  background-color: var(--cardPaper--background--color) !important;
+  /* width: 350px; */
+  width: 21.67vw;
+  min-width: 350px;
+}
+
+.GridContainer {
+  width: 100% !important;
+}
+
+.CardImage {
+  height: 215px;
+}
+
+.CardContent {
+  height: 105px;
+}

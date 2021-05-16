@@ -1,6 +1,6 @@
 .AboutMeContainer {
   text-align: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .AvatarImg {
@@ -27,8 +27,8 @@
 
 .BodyParagraph {
   width: 100%;
-  max-width: 800px;
   margin: 0px 20px 20px 20px !important;
   color: var(--body--text--color);
   font-size: clamp(1em, 1.5vw, 2vw) !important;
+  text-align: left;
 }

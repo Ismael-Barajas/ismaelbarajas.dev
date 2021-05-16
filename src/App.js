@@ -1,4 +1,4 @@
-import { Header, Projects, AboutMe } from "./Components";
+import { Header, Projects, AboutMe, ScrollButton } from "./Components";
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <Header />
       <AboutMe />
       <Projects />
+      <ScrollButton />
     </>
   );
 }

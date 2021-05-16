@@ -1,0 +1,30 @@
+[
+    {
+    "name":"TimeLines",
+    "description":"A web application project created with the idea of being able to easily search up or share someone’s Github repository history in a consolidated view.",
+    "image_route":"/Images/TimeLines.png",
+    "github_url": "https://github.com/Ismael-Barajas/Timelines",
+    "homepage_url": "https://timelines-ismael-barajas.vercel.app/"
+    },
+    {
+    "name":"COVID-19 Watch",
+    "description":"A 'COVID-Tracker' website that includes updated COVID-19 related information and visuals such as graphs and a map to depict the data.",
+    "image_route":"/Images/Covid19.png",
+    "github_url": "https://github.com/Ismael-Barajas/Covid19-Website",
+    "homepage_url": "https://covid-19-watch-349.herokuapp.com/"
+    },
+    {
+    "name":"ismaelbarajas.dev",
+    "description":"Personal website built with React, Bootstrapped with Create React App. Hosted/Deployed with Firebase.",
+    "image_route":"/Images/PersonalWebsite.png",
+    "github_url": "https://github.com/Ismael-Barajas/ismaelbarajas.dev",
+    "homepage_url": "https://ismaelbarajas.dev/"
+    },
+    {
+    "name":"QuizzieBizzie",
+    "description":"Website where users can create and take quizzes. Built using Flask, Python, and SQLite.",
+    "image_route":"/Images/QuizzieBizzie.png",
+    "github_url": "https://github.com/Ismael-Barajas/QuizzieBizzie",
+    "homepage_url": "https://quizziebizzie.herokuapp.com/"
+    }
+]
