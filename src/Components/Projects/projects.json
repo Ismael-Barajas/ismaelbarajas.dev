@@ -1,5 +1,12 @@
 [
     {
+    "name":"Nxt Fire Application",
+    "description":"A Full-stack Social Blogging Platform. A part of Next.js Firebase Course project.",
+    "image_route":"/Images/nxt-fire-app.png",
+    "github_url": "https://github.com/Ismael-Barajas/nxt-fire-app",
+    "homepage_url": "https://nxt-fire-app.vercel.app/"
+    },
+    {
     "name":"TimeLines",
     "description":"A web application project created with the idea of being able to easily search up or share someone’s Github repository history in a consolidated view.",
     "image_route":"/Images/TimeLines.png",

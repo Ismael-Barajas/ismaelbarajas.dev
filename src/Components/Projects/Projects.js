@@ -1,4 +1,3 @@
-//TODO: Find a good font for the cards and change text color to match AboutMe text color.
 import {
   Card,
   CardContent,
