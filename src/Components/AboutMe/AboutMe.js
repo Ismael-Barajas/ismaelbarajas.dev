@@ -39,15 +39,13 @@ export default function AboutMe() {
                 <br />
                 <br />
                 As of late I've taken an interest in Front End developing with
-                React, building out projects with create-react-app (Client side
-                rendering) and next.js (Server side rendering). You can check
-                out some of the projects I have worked on below! I would say I’m
-                most proficient with React/JavaScript/JSX and C++. I’m also
-                familiar with other languages as well, such as C and Python. I
-                wouldn’t consider myself a Front End Developer just yet because
-                it’s very early in my career and interests change over time. So
-                who knows what other projects, languages, and career
-                opportunities await!
+                React. You can check out some of the projects I have worked on
+                below! I would say I’m most proficient with React/JavaScript/JSX
+                and C++. I’m also familiar with other languages as well, such as
+                C and Python. I wouldn’t consider myself a Front End Developer
+                just yet because it’s very early in my career and interests
+                change over time. So who knows what other projects, languages,
+                and career opportunities await!
                 <br />
                 <br />
                 Feel free to contact me anytime through any of the platforms
