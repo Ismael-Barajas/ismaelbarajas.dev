@@ -4,10 +4,19 @@
 }
 
 .Appheader {
-  min-height: 90vh;
+  min-height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   font-size: calc(27px + 2vmin);
   color: var(--header--text--color);
@@ -22,7 +31,9 @@
 }
 
 .iconJumpTo::after {
+  -webkit-animation: shine 3.5s ease-in-out infinite;
   animation: shine 3.5s ease-in-out infinite;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   content: "";
   position: absolute;
@@ -31,9 +42,27 @@
   width: 200%;
   height: 200%;
   opacity: 0;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
   transform: rotate(30deg);
 
   background: rgba(255, 255, 255, 0.13);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0.13)),
+    color-stop(77%, rgba(255, 255, 255, 0.13)),
+    color-stop(92%, rgba(255, 255, 255, 0.5)),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0) 100%
+  );
   background: linear-gradient(
     to right,
     rgba(255, 255, 255, 0.13) 0%,
@@ -43,19 +72,50 @@
   );
 }
 
-@keyframes shine {
+@-webkit-keyframes shine {
   10% {
     opacity: 1;
     top: -30%;
     left: -30%;
+    -webkit-transition-property: left, top, opacity;
+    -o-transition-property: left, top, opacity;
     transition-property: left, top, opacity;
+    -webkit-transition-duration: 0.7s, 0.7s, 0.15s;
     transition-duration: 0.7s, 0.7s, 0.15s;
+    -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
   }
   100% {
     opacity: 0;
     top: -30%;
     left: -30%;
+    -webkit-transition-property: left, top, opacity;
+    -o-transition-property: left, top, opacity;
+    transition-property: left, top, opacity;
+  }
+}
+
+@keyframes shine {
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    -webkit-transition-property: left, top, opacity;
+    -o-transition-property: left, top, opacity;
+    transition-property: left, top, opacity;
+    -webkit-transition-duration: 0.7s, 0.7s, 0.15s;
+    -o-transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    -webkit-transition-property: left, top, opacity;
+    -o-transition-property: left, top, opacity;
     transition-property: left, top, opacity;
   }
 }
