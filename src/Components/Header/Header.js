@@ -73,7 +73,7 @@ export default function Header() {
             </a>
           </div>
         </header>
-        <div>
+        <div style={{ borderRadius: "50%" }}>
           <IconButton
             onClick={() => {
               jumpTo();
