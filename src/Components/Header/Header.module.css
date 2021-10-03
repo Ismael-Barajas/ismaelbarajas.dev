@@ -28,7 +28,6 @@
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  border-radius: 50% !important;
 }
 
 .iconJumpTo::after {
@@ -46,6 +45,7 @@
   -webkit-transform: rotate(30deg);
   -ms-transform: rotate(30deg);
   transform: rotate(30deg);
+  border-radius: 50% !important;
 
   background: rgba(255, 255, 255, 0.13);
   background: -webkit-gradient(
