@@ -28,6 +28,7 @@
   text-decoration: none;
   text-align: center;
   display: inline-block;
+  border-radius: 50% !important;
 }
 
 .iconJumpTo::after {
