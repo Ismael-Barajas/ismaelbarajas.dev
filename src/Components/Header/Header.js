@@ -77,6 +77,7 @@ export default function Header() {
           onClick={() => {
             jumpTo();
           }}
+          className={styles.iconJumpTo}
         >
           <ExpandMoreIcon style={{ fontSize: 40 }} />
         </IconButton>
