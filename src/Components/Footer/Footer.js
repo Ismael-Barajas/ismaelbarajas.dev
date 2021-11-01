@@ -2,7 +2,8 @@ import { Container, makeStyles, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles({
   container: {
-    margin: "20px 0 10px 0",
+    marginTop: 20,
+    marginBottom: 10,
   },
   text: {
     color: "var(--body--text--color)",
