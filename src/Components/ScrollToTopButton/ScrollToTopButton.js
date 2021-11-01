@@ -1,5 +1,6 @@
+import { IconButton } from "@material-ui/core";
 import React, { useState, useEffect } from "react";
-import { FaArrowCircleUp } from "react-icons/fa";
+import { FaAngleDoubleUp } from "react-icons/fa";
 import styles from "./ScrollToTopButton.module.css";
 
 export default function ScrollButton() {
@@ -27,10 +28,9 @@ export default function ScrollButton() {
 
   return (
     <div className={styles.button}>
-      <FaArrowCircleUp
-        onClick={scrollToTop}
-        style={{ display: visible ? "inline" : "none" }}
-      />
+      <IconButton style={{ display: visible ? "inline" : "none" }}>
+        <FaAngleDoubleUp onClick={scrollToTop} style={{ fontSize: 40 }} />
+      </IconButton>
     </div>
   );
 }
