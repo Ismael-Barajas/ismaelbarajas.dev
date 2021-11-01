@@ -32,7 +32,7 @@ export default function AboutMe() {
                 <br />
                 <br />
                 I'm currently a senior student at California State University,
-                Fullerton. Expected to graduate in 2022 with a B.S. in Computer
+                Fullerton. Expected to graduate in 2022 with an B.S. in Computer
                 Science. When I’m not coding, I enjoy playing video games
                 (unhealthy amount of Valorant) and building/collecting
                 keyboards.
