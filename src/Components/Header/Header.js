@@ -46,7 +46,7 @@ export default function Header() {
             </Typing>
           </h1>
           <div className={classes.root}>
-            <a href="https://www.linkedin.com/in/ismael-barajas-52a877211/">
+            <a href="https://www.linkedin.com/in/ismael-barajas/">
               <IconButton>
                 <LinkedInIcon style={{ fontSize: 50 }} />
               </IconButton>
